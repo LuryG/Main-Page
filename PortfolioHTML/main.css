@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    background-color: rgb(65, 65, 146);
+}
+header{
+    color: white;
+    background-color: burlywood;
+    text-transform: uppercase;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+nav{
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+.nav-bar:hover{
+    transition: 0.8s;
+    background: rgb(200, 71, 226);
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 40%;
+}
+img{
+    height: 95px;
+}
+.apresentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: cadetblue;
+    margin: 50px 200px 50px 200px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    padding-left: 100px
+}
+.box-projects{
+    background-color: rgb(27, 84, 84);
+    display:inline-block;
+    margin: 10px;
+    border:10px;
+    padding: 10px;
+    text-align: -webkit-center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    width: 190px;
+
+}
+.image-project{
+    display: flex;
+}
+.text-project{
+    display: block;
+}
+.box-projects:hover{
+    transition: 0.5s;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    border-radius: 15%;
+}
+.gow-project:hover{
+    cursor: url('http://www.rw-designer.com/cursor-view/35233.png'),auto;
+    transition: 0.5s;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    border-radius: 15%;
+
+}
+.gow-project{
+    padding-top: 15px;
+    background-color: rgb(27, 84, 84);
+    display:inline-block;
+    text-align: -webkit-center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    width: 190px;
+}
+.image-project:hover{
+    transition: 0.5s;
+    text-decoration: none;
+    background-color: cornflowerblue;
+    border-radius: 15%;
+}

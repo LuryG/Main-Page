@@ -1,0 +1,52 @@
+#principal{ 
+   padding: 100px 100px;
+   padding-bottom: 1px;
+   border-style: solid;
+   border-color: rgb(0, 0, 0);
+   background-color:rgb(77, 56, 56) ;
+}
+#titulos{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: rgb(236, 247, 177);
+    
+}
+header{
+    font-size: xx-large;
+    color: blue;
+    text-align: center;
+
+}
+.imgDestaque{
+width: 125mm ;
+border: 0.9mm solid black;
+float: left;
+}
+.imgNoticia{
+    float:left;
+    border: 0.9mm solid black;
+    width: 125mm;
+}
+main{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+div{
+    overflow: auto;
+    font-size: 0.7cm;
+    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    padding: 100px 100px;
+    margin-bottom: 100px;
+    background-color:rgb(95, 39, 25) ;
+}
+footer{
+    font-size:x-large;
+    color: rgb(18, 241, 230);
+}
+.gow4{
+    width: 1535.35px; 
+    height: 417.6px;
+}
