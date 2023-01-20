@@ -1,19 +1,15 @@
 body{
     margin: 0px;
-    border: 0px;
+    border:0px;
     padding: 0px;
-    background-color: rgb(65, 65, 146);
+    background-color: #404258;
 }
 header{
     color: white;
-    background-color: burlywood;
+    background-color: #50577A;
     text-transform: uppercase;
-    margin-left: 20px;
-    margin-right: 20px;
-    
 }
 nav{
-    padding: 15px 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -26,72 +22,48 @@ a{
 }
 .nav-bar:hover{
     transition: 0.8s;
-    background: rgb(200, 71, 226);
+    background: #474E68;
     color: white;
     cursor: pointer;
     text-decoration: none;
-    border-radius: 40%;
 }
 img{
     height: 95px;
 }
 .apresentation{
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: cadetblue;
-    margin: 50px 200px 50px 200px;
+    text-align: center;
+    background-color: #6B728E;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-h2{
-    padding-left: 100px
-}
 .box-projects{
-    background-color: rgb(27, 84, 84);
+    background-color: #6B728E;
     display:inline-block;
-    margin: 10px;
-    border:10px;
-    padding: 10px;
+    margin: 20px;
+    padding-top: 15px;
     text-align: -webkit-center;
     overflow-wrap: break-word;
     word-wrap: break-word;
     word-break: break-word;
     width: 190px;
 
-}
-.image-project{
-    display: flex;
-}
-.text-project{
-    display: block;
 }
 .box-projects:hover{
     transition: 0.5s;
     text-decoration: none;
-    background-color: cornflowerblue;
-    border-radius: 15%;
-}
-.gow-project:hover{
-    cursor: url('http://www.rw-designer.com/cursor-view/35233.png'),auto;
-    transition: 0.5s;
-    text-decoration: none;
-    background-color: cornflowerblue;
-    border-radius: 15%;
+    background-color: #474E68;
 
 }
-.gow-project{
-    padding-top: 15px;
-    background-color: rgb(27, 84, 84);
-    display:inline-block;
-    text-align: -webkit-center;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-word;
-    width: 190px;
+.image-gow-project:hover{
+    cursor: url('http://www.rw-designer.com/cursor-view/35233.png'),auto;
 }
-.image-project:hover{
-    transition: 0.5s;
-    text-decoration: none;
-    background-color: cornflowerblue;
-    border-radius: 15%;
+footer{
+    background-color: #6B728E;
+
+}
+.social-media{
+    display: grid;
+    width: 50px;
 }
